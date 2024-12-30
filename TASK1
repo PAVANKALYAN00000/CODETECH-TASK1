@@ -1,0 +1,12 @@
+create database HotelBooking;
+use HotelBooking;
+CREATE TABLE TblReservation
+    (name varchar(70),payment int,reservation_id int, hotel_id int, room_id int, check_in date, check_out date)
+;
+insert into TblReservation values('pavankalyan',2000,1,2,504,'2025-01-15','2025-01-20');
+select * from Tblreservation;
+insert into tblreservation values('sury',2000,2,2,104,'2025-01-5','2025-01-10');
+insert into tblreservation values('raju',1500,3,5,111,'2024-12-6','2024-12-9');
+insert into tblreservation values('prathysh',1000,1,7,107,'2024-5-16','2024-5-25');
+insert into tblreservation values('ragu',2000,6,4,116,'2024-7-10','2024-7-17');
+select * from tblreservation
